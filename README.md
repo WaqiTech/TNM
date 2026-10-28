@@ -55,10 +55,6 @@ Endpoints use HTTP. Proxy environment variables are ignored.
 
 `TNM_SAMPLE_INTERVAL_SECS` controls CPU, memory, filesystem and network sampling. NVMe devices also report disk I/O. Set `TNM_TCP_STATES=true` for detailed TCP states.
 
-## Releases
-
-Publish versioned GitHub tags with `Cargo.lock`. NixOS packaging will fetch a pinned source revision and build it directly.
-
 ## Development
 
 Follow the [Google Rust style guide](https://google.github.io/styleguide/rustguide.html).
